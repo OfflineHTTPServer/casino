@@ -1,4 +1,3 @@
-
 export default function Home() {
     return (
         <div className="container mx-auto p-8 pt-24">
@@ -13,70 +12,70 @@ export default function Home() {
                 {[
                     {
                         id: 1,
-                        title: "The",
+                        title: "FIELD",
                         width: "md:col-span-1",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 2,
-                        title: "First",
+                        title: "FIELD",
                         width: "md:col-span-2",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 3,
-                        title: "Rule",
+                        title: "FIELD",
                         width: "md:col-span-1",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 4,
-                        title: "Of",
+                        title: "FIELD",
                         width: "md:col-span-3",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 5,
-                        title: "F",
+                        title: "FIELD",
                         width: "md:col-span-1",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 6,
-                        title: "Club",
+                        title: "FIELD",
                         width: "md:col-span-2",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 7,
-                        title: "Is",
+                        title: "FIELD",
                         width: "md:col-span-2",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 8,
-                        title: "You",
+                        title: "FIELD",
                         width: "md:col-span-1",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 9,
-                        title: "Do NOT TALK about",
+                        title: "FIELD",
                         width: "md:col-span-2",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
                     },
                     {
                         id: 10,
-                        title: "F Club",
+                        title: "FIELD",
                         width: "md:col-span-1",
                         height: "h-60",
                         bg: "bg-neutral-100 dark:bg-neutral-800",
