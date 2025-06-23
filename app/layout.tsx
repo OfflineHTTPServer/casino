@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { title } from "../lib/data.json"
 import SiteNavbar from "@/components/navbar";
 
 const geistSans = Geist({
@@ -15,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: `${title} Casino`,
+    title: "Royal Casino",
     description: "Your favorite Casino",
 };
 

@@ -21,7 +21,7 @@ export default function SiteNavbar() {
         },
         {
             name: "About Us",
-            link: "/about-us",
+            link: "/about",
         },
         {
             name: "Contact",
@@ -32,7 +32,7 @@ export default function SiteNavbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <div className="w-full fixed top-4">
+        <div className="w-full fixed top-4 z-50">
             <Navbar>
                 <NavBody>
                     <NavbarLogo />

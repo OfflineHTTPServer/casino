@@ -9,7 +9,7 @@ import {
 } from "motion/react";
 
 import React, { useRef, useState } from "react";
-import { FaHatCowboy } from "react-icons/fa";
+import { FaCrown } from "react-icons/fa6";
 
 
 interface NavbarProps {
@@ -234,13 +234,13 @@ export const MobileNavToggle = ({
 export const NavbarLogo = () => {
     return (
         <a
-            href="#"
+            href="/site"
             className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
         >
 
-            <FaHatCowboy size={30} />
+            <FaCrown size={30} />
 
-            <span className="font-medium text-black dark:text-white">The Tops Casino</span>
+            <span className="font-medium text-black dark:text-white">Royal Casino</span>
         </a>
     );
 };
