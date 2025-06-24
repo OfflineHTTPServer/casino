@@ -203,7 +203,11 @@ export default function () {
                         >
                             {getBackgroundElement(game, isHovered)}
 
-                            <div className="relative z-10 text-center">
+                            <div className="relative z-10 text-center"
+                                onClick={() => {
+                                    window.location.href = game.id
+                                }}
+                            >
                                 <div
                                     className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 backdrop-blur-sm mb-6 transition-all duration-300 ${isHovered ? `text-${game.colors.accent} scale-110` : "text-gray-600"}`}
                                 >
@@ -218,9 +222,6 @@ export default function () {
 
                                 <div
                                     className={`inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gray-100 backdrop-blur-sm text-gray-700 font-medium transition-all duration-300 ${isHovered ? "bg-gray-200 scale-105" : ""}`}
-                                    onClick={() => {
-                                        window.location.href = game.id
-                                    }}
                                 >
                                     <Play className="w-4 h-4" />
                                     Play Now
