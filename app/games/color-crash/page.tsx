@@ -200,7 +200,7 @@ export default function ColorCrashGame() {
 
                             {/* Progress Indicator */}
                             {gameState.isRunning && (
-                                <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
+                                <div className="w-full bg-gray-200 rounded-full h-2 mb-6 hidden">
                                     <div
                                         className="bg-gradient-to-r from-blue-500 to-red-500 h-2 rounded-full transition-all duration-200"
                                         style={{ width: `${Math.min((gameState.multiplier / gameState.crashPoint) * 100, 100)}%` }}

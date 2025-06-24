@@ -18,7 +18,7 @@ export default function ContactPage() {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
         setIsSubmitted(true)
-        setTimeout(() => setIsSubmitted(false), 3000)
+        setTimeout(() => setIsSubmitted(false), 10000)
     }
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -180,6 +180,10 @@ export default function ContactPage() {
                                 <button
                                     type="submit"
                                     className="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold py-4 px-6 rounded-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center"
+                                    onClick={() => {
+                                        let email: string = `Subject: ${formData.subject}\n\rCompany: ${formData.company}\n\rName: ${formData.name}\n\rE-Mail: ${formData.email}\n\rMessage: ${formData.message}\n\r`
+                                        console.log(email);
+                                    }}
                                 >
                                     <Send className="w-5 h-5 mr-2" />
                                     Send Message
