@@ -1,4 +1,4 @@
-# The Tops Casino - Casino Simulation
+# Royal Casino - Casino Simulation
 
 ![Logo](public/casino.png "Title")
 
