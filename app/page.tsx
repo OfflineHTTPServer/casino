@@ -22,7 +22,7 @@ const games: Game[] = [
     {
         id: "games/blackjack",
         title: "Black Jack",
-        description: "BlackJack - A classical game on modern systems",
+        description: "BlackJack - A classical game on modern systems.",
         icon: <Sword className="w-8 h-8" />,
         variant: "gradient",
         colors: {
@@ -34,7 +34,7 @@ const games: Game[] = [
     {
         id: "games/slots",
         title: "Slots",
-        description: "The game everyone knows",
+        description: "The game everyone knows.",
         icon: <Zap className="w-8 h-8" />,
         variant: "glow",
         colors: {
@@ -46,7 +46,7 @@ const games: Game[] = [
     {
         id: "games/color-crash",
         title: "Color Crash",
-        description: "Win or Crash",
+        description: "Win or Crash!",
         icon: <Crown className="w-8 h-8" />,
         variant: "pulse",
         colors: {
