@@ -94,7 +94,7 @@ const games: Game[] = [
     {
         id: "games/wheel",
         title: "Wheel of Fortune",
-        description: "Try your luck with cards!",
+        description: "Spin the wheel!",
         icon: <FerrisWheel className="w-8 h-8" />,
         variant: "slide",
         colors: {
